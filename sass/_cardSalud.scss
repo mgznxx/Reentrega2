@@ -1,0 +1,41 @@
+div {
+    .card {
+        min-width: 200px;
+        flex: 350px;
+        margin:auto;
+    }
+    .Cursos centrados {
+        width: 90%;
+        padding: 80px 0;
+        margin: auto;
+        max-width: 1200px;
+        display:flex;
+        flex-wrap: wrap;
+        gap: 2em;
+    }
+    .salud {
+        width: 90%;
+        padding: 80px 0;
+        margin: auto;
+        max-width: 1200px;
+        display:flex;
+        flex-wrap: wrap;
+        gap: 2em;
+    }
+    .parrafo {
+        color: $txtColor;
+        padding: 0px 10px 0px 50px;
+    }
+}
+
+    .card shadow {
+        border-radius: 50%;
+    }
+
+
+h1 .cursosTxt {
+    font-size: 10px;
+}
+h2 .cursosTxt {
+    font-size: 16px;
+}

@@ -1,0 +1,370 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+
+h1 {
+  z-index: 2;
+
+}
+.anim {
+  font-size: 70px;
+  font-weight: bold;
+  position: relative;
+}
+.txtFormulario {
+  font-size: 30px;
+  font-weight: 600;
+  padding-left: 10px;
+  color: rgb(209, 142, 53);
+}
+.txtCursos {
+  font-size: 50px;
+  font-weight: bold;
+  padding-left: 30px;
+  color: white;
+}
+
+
+
+.container-fluid {
+  padding: 0%;
+  margin: auto;
+}
+
+.imgLogo {
+  margin-left: 40px;
+}
+
+div .container {
+  margin-bottom: 200px;
+}
+
+img .logoRecorte {
+  width: 20px;
+}
+
+.hero {
+  width: 100%;
+  min-height: 70vh;
+  background-position: center;
+  background-size: cover;
+  padding: 0px 5%;
+  overflow: hidden;
+  position: relative;
+}
+
+.logo {
+  width: 140px;
+}
+
+nav {
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 4px 15px;
+  font-size: 18px;
+}
+
+/*:::: CANTACTO ::::*/
+h1.txtFormulario {
+  font-size: 30px;
+  font-weight: 600;
+  padding-left: 10px;
+  color: rgb(209, 142, 53);
+}
+
+#nombre.control #apellido.control #email.control #mensaje.control {
+  font-size: 14px;
+  padding-bottom: 5px;
+}
+
+.fondo {
+  background-image: url(../images/0055.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-color: rgba(0, 0, 0, 0.3);
+  width: 400px;
+  padding: 20px 20px 10px 10px;
+  margin: auto;
+  margin-top: 10px;
+  border-radius: 10px;
+  font-family: "Roboto", sans-serif;
+  color: rgb(41, 3, 3);
+  box-shadow: 7px 13px 37px #000;
+}
+
+.formulario {
+  width: 400px;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(245, 218, 182);
+}
+
+.container2 {
+  background-size: cover;
+}
+
+.content {
+  margin-top: 10%;
+  max-width: 400px;
+}
+.content h1 {
+  font-size: 70px;
+  color: rgb(245, 245, 248);
+  font-weight: bold;
+}
+.content p {
+  margin: 10px 0 30px;
+  color: rgb(245, 239, 239);
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
+}
+.content .btn {
+  padding: 15px 80px;
+  font-size: 16px;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+footer {
+  margin-top: auto;
+}
+
+/*:::: Imagen Hero ::::*/
+h1 {
+  z-index: 2;
+}
+h1 .anim {
+  font-size: 70px;
+  font-weight: bold;
+  position: relative;
+}
+
+
+p.anim {
+  font-size: 20px;
+  position: relative;
+  z-index: 2;
+}
+
+img.feature-img.anim.cara{
+  width: 27rem;
+  position: absolute;
+  bottom: 0;
+  right: 5px;
+}
+
+.feature-img.anim {
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
+}
+
+.anim {
+  opacity: 0;
+  transform: translateY(30px);
+  -webkit-animation: moveup 0.5s linear forwards;
+          animation: moveup 0.5s linear forwards;
+  padding-left: 15px;
+}
+
+@-webkit-keyframes moveup {
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+@keyframes moveup {
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+h2 {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+/*CARD CURSOS*/
+div .card {
+  min-width: 200px;
+  flex: 350px;
+  margin: auto;
+}
+div .Cursos centrados {
+  width: 90%;
+  padding: 80px 0;
+  margin: auto;
+  max-width: 1200px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2em;
+}
+div .salud {
+  width: 90%;
+  padding: 80px 0;
+  margin: auto;
+  max-width: 1200px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2em;
+}
+div .parrafo {
+  color: white;
+  padding: 0px 10px 0px 50px;
+}
+
+.card shadow {
+  border-radius: 50%;
+}
+
+h1.tituloTxt {
+  font-size: 24px;
+}
+
+h2.tituloTxt {
+  font-size: 24px;
+}
+h1.titSalud {
+  font-size: 36px;
+  font-weight: bold;
+  padding-left: 56px;
+  color: rgb(192, 194, 231);
+}
+
+h1.titIdiomas {
+  font-size: 36px;
+  font-weight: bold;
+  padding-left: 56px;
+  color: rgb(192, 194, 231);
+}
+
+h1.titCompu {
+  font-size: 36px;
+  font-weight: bold;
+  padding-left: 56px;
+  color: rgb(192, 194, 231);
+}
+
+.acordeon {
+  width: 100%;
+  max-width: 600px;
+  height: 40vh;
+}
+
+/*:::::::::::::::::::Media Queries::::::::::::::::::*/
+/*:::::::::::: Desktop :::::::::::*/
+@media (max-width: 1024px) {
+  img.feature-img.anim.cara {
+    width: 30rem;
+  }
+}
+/*:::::: TABLET ::::::*/
+@media (max-width: 768px) {
+  h1 {
+    z-index: 2;
+  }
+  .anim {
+    z-index: 2;
+  }
+  .txtCursos {
+    font-size: 40px;
+    font-weight: bold;
+    padding-left: 30px;
+    color: white;
+  }
+}
+img.feature-img.anim.cara {
+  width: 23rem;
+  -o-object-fit: contain;
+    object-fit: contain;
+  z-index: 0;
+}
+
+p.anim {
+  font-size: 16px;
+}
+
+nav ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 0px 8px;
+  font-size: 14px;
+}
+
+.foot {
+  font-size: 14px;
+}
+
+/*:::::: Mobile ::::::*/
+@media (max-width: 576px) {
+  nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 0px 15px;
+    font-size: 18px;
+  }
+  img {
+    margin-left: 2px;
+  }
+  img.feature-img.anim.cara {
+    width: 15rem;
+    position: absolute;
+    bottom: 4rem;
+    right: 5px;
+    border-radius: 50%;
+    margin: auto;
+    opacity: 0.2;
+    transform: translateY(0px);
+    -webkit-animation-delay: 0.5s;
+            animation-delay: 0.5s;
+  }
+  .imgLogo {
+    margin-left: 10px;
+  }
+  h1 {
+    z-index: 2;
+  }
+  h1.anim {
+    font-size: 40px;
+    font-weight: bold;
+    opacity: 1;
+  }
+  p.anim {
+    font-size: 14px;
+    z-index: 3;
+  }
+  p.instituto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  div.parrafo {
+    color: white;
+    padding: 0px 10px 0px 30px;
+  }
+  .texto salud {
+    width: 80%;
+    text-align: justify;
+    padding: 0px 5px;
+  }
+  .fondo {
+    width: 300px;
+  }
+}/*# sourceMappingURL=style.css.map */

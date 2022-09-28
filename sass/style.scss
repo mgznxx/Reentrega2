@@ -1,0 +1,342 @@
+$txtColor: white;
+$forColor: rgb(209, 142, 53);
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+h1 {
+    z-index: 2;
+
+    .anim {
+    font-size: 70px;
+    font-weight: bold;
+    position: relative;
+    }
+
+    .txtFormulario {
+        font-size: 30px;
+        font-weight: 600;
+        padding-left: 10px;
+        color: $forColor;
+    
+    }
+    .txtCursos {
+        font-size: 30px;
+        font-weight: bold;
+        padding-left: 30px;
+        color: $txtColor;
+    
+    }
+}
+    .container-fluid {
+        padding: 0%;
+        margin: auto;
+    }
+
+    .imgLogo {
+        margin-left: 40px;
+    }
+    
+    div .container {
+        margin-bottom: 200px;
+    }
+    
+    img .logoRecorte {
+        width: 20px;
+    }
+    
+    .hero {
+        width: 100%;
+        min-height: 70vh;
+        background-position: center;
+        background-size: cover;
+        padding: 0px 5%;
+        overflow: hidden;
+        position: relative;
+    }
+    .logo {
+        width: 140px;
+    }
+
+    nav{
+        padding: 10px 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        ul li{
+            display: inline-block;
+            list-style: none;
+            margin: 4px 15px;
+            font-size: 18px;
+    }
+
+
+}
+
+/*:::: CANTACTO ::::*/
+
+h1.txtFormulario {
+    font-size: 30px;
+    font-weight: 600;
+    padding-left: 10px;
+    color: $forColor;
+}
+
+#nombre.control #apellido.control #email.control #mensaje.control {
+    font-size: 14px;
+    padding-bottom: 5px;
+}
+
+.fondo {
+    background-image: url(../images/0055.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 400px;
+    padding: 20px 20px 10px 10px;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 10px;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(41, 3, 3);
+    box-shadow: 7px 13px 37px #000;
+}
+.formulario {
+    width: 500px;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(245, 218, 182);
+}
+.container2 {
+    background-size: cover;
+}
+.content{
+    margin-top: 10%;
+
+    h1{
+        font-size: 70px;
+        color: rgb(245, 245, 248);
+        font-weight: bold;
+    }
+    p{
+        margin: 10px 0 30px;
+        color: rgb(245, 239, 239);
+        animation-delay: 0.5s;
+    }
+    .btn{
+        padding: 15px 80px;
+        font-size: 16px;
+        animation-delay: 1s;
+    }
+}
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+footer {
+    margin-top: auto;
+}
+
+
+/*:::: Imagen Hero ::::*/
+
+h1 {
+    z-index: 2;
+    .anim{
+        font-size: 70px;
+        font-weight: bold;
+        position: relative;
+        
+    }
+
+}
+
+p.anim {
+    font-size: 20px;
+    position: relative;
+    z-index: 2;
+}
+
+.feature-img.anim {
+    animation-delay: 2s;
+}
+
+.anim {
+    opacity: 0;
+    transform: translateY(30px);
+    animation: moveup 0.5s linear forwards;
+    padding-left: 15px;
+}
+
+@keyframes moveup {
+    100% {
+    opacity: 1;
+    transform: translateY(0px);
+    }
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: 500;
+
+}
+/*CARD SALUD*/
+
+@import "cardSalud";
+
+h1.titSalud {
+    font-size: 36px;
+    font-weight: bold;
+    padding-left: 56px;
+    color: rgb(156, 152, 152);
+}
+
+h1.titIdiomas {
+    font-size: 36px;
+    font-weight: bold;
+    padding-left: 56px;
+    color: rgb(156, 152, 152);
+}
+
+h1.titCompu {
+    font-size: 36px;
+    font-weight: bold;
+    padding-left: 56px;
+    color: rgb(156, 152, 152);
+}
+
+@import "acordeon";
+
+/*:::::::::::::::::::Media Queries::::::::::::::::::*/
+
+/*:::::::::::: Desktop :::::::::::*/
+@media (max-width: 1440px) {
+    img.feature-img.anim.cara {
+    width: 24rem;
+    }
+}
+    /*:::::: TABLET ::::::*/
+
+@media (max-width: 768px) {
+
+        h1 {
+            z-index: 2;
+        }
+        .anim {
+            z-index: 2;
+        }
+        .txtCursos {
+            font-size: 40px;
+            font-weight: bold;
+            padding-left: 30px;
+            color: $txtColor;
+        }
+
+}
+img.feature-img.anim.cara{
+    width: 20rem;
+    object-fit: contain;
+    z-index: 0;
+    
+}
+
+p.anim {
+    font-size: 16px;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 0px 8px;
+    font-size: 14px;
+}
+
+.foot {
+    font-size: 14px;
+}
+
+/*:::::: Mobile ::::::*/
+@media(max-width: 576px) {
+    
+    nav ul li{
+        display: inline-block;
+        list-style: none;
+        margin: 0px 15px;
+        font-size: 18px;
+    }
+
+    img {
+        margin-left: 2px;
+
+        .feature-img.anim.cara{
+        
+            width: 15rem;
+            position: absolute;
+            bottom: 4rem;
+            right: 5px;
+            border-radius: 50%;
+            margin: auto;
+            opacity: 0.2;
+            transform: translateY(0px);
+            animation-delay: .5s;
+            
+    
+            
+        }
+
+
+    }
+    
+    .imgLogo {
+        margin-left: 10px;
+    }
+    h1 {
+        z-index: 2;
+        .anim{
+            font-size: 40px;
+            font-weight: bold;
+            opacity: 1;
+        }
+    }
+    p{
+        .anim {
+            font-size: 16px;
+            z-index: 3;
+        }
+        .instituto {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            }
+    }
+
+    div.parrafo {
+        color: $txtColor;
+        padding: 0px 10px 0px 30px;
+    }
+    
+    .texto salud {
+        width: 80%;
+        text-align: justify;
+        padding: 0px 5px;
+    }
+    
+    .fondo {
+        width: 300px;
+    }
+
+}
